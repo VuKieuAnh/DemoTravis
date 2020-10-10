@@ -20,7 +20,7 @@ class CaculatorNextDayTest {
     @Test
     @DisplayName("case 31/1/2018")
     void testDay31Month1Year2018(){
-        int dayTest = 1;
+        int dayTest = 31;
         int monthTest = 1;
         int yearTest = 2018;
         String result = CaculatorNextDay.nextDayCalculator(dayTest, monthTest, yearTest);
