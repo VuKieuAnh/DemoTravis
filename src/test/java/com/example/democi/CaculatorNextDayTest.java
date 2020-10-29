@@ -65,15 +65,15 @@ class CaculatorNextDayTest {
         assertEquals(expected, result);
     }
 
-    @Test
-    @DisplayName("case 29/02/2020")
-    void testDay21Month2Year2020(){
-        int dayTest = 21;
-        int monthTest = 2;
-        int yearTest = 2020;
-        String expected = "1-3-2020";
-        String result = CaculatorNextDay.nextDayCalculator(dayTest, monthTest, yearTest);
-        assertEquals(expected, result);
-    }
+//    @Test
+//    @DisplayName("case 29/02/2020")
+//    void testDay21Month2Year2020(){
+//        int dayTest = 21;
+//        int monthTest = 2;
+//        int yearTest = 2020;
+//        String expected = "1-3-2020";
+//        String result = CaculatorNextDay.nextDayCalculator(dayTest, monthTest, yearTest);
+//        assertEquals(expected, result);
+//    }
 
 }
